@@ -11,6 +11,6 @@
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
-    <content src="https://billpay.demo.alliedpayment.com" />
+    <content src="http://192.168.38.166/SmallBiz.MVC" />
     <access origin="*" />
 </widget>

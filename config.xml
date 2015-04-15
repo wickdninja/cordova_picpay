@@ -2,11 +2,31 @@
 <widget id="com.alliedpayment.PicturePay" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>PicturePay</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+       A mobile bill pay solution
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="nate.ross@alliedpayment.com" href="http://alliedpayment.com">
+        Allied Payment Network Team
     </author>
-    <content src="https://billpay.demo.alliedpayment.com" />
+    <content src="http://192.168.38.166/SmallBiz.MVC" />
+
+  <!-- PROD -->
+  <!-- <content src="https://billpay.alliedpayment.com/" /> -->
+
+  <!-- FINAL -->
+  <!-- <content src="https://billpay.final.alliedpaymentnetwork.com/" /> -->
+
+  <!-- TEST -->
+  <!-- <content src="https://billpay.test.alliedpaymentnetwork.com/" /> -->
+
+  <!-- DEMO -->
+  <!-- <content src="https://billpay.demo.alliedpayment.com" /> -->
+
+  <!-- LOCAL -->
+  <content src="http://192.168.38.166/SmallBiz.MVC" />
+
+  <!-- DEMO FI-MOBILE >-->
+  <!-- <content src="https://fi-mobile.demo.alliedpayment.com"/> -->
+
+  <!-- <content src="https://dupaco.demo.alliedpayment.com"/> -->
     <access origin="*" />
 </widget>
